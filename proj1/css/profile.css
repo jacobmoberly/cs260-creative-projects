@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DFDFDF;
+    font-family: 'Roboto', serif;
+}
+
+b {
+    font-weight: 700;
+}
+
+.page {
+    width: 700px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.header {
+    display: flex;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.data {
+    width: 60%;
+    margin: auto;
+}
+
+.follow {
+    display: flex;
+    align-content: space-between;
+}
+
+.follow p {
+    margin: 15px;
+}
+
+img {
+    max-width: 203.33px;
+    margin: 10px 0 10px 0 ;
+}
+
+.posts {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+}
+
+.wpx-100, .wpx-100-after:after {
+    width: 150px;
+}
+.img-round, .img-rel-round {
+    border-radius: 50%;
+    border: 4px solid #F5258B;
+    margin-top: 10px;
+}
+.mgb-20, .mgb-20-all > * {
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .page {
+        width: 400px;
+    }
+    
+    img {
+        max-width: 100px;
+    }
+
+    .data {
+        width: 80%;
+        margin: auto;
+    }
+}
