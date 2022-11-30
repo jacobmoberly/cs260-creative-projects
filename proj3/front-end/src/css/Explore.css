@@ -1,0 +1,24 @@
+.exp-page {
+  width: 700px;
+  margin: auto;
+  padding-top: 15px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.exp-page img {
+  max-width: 203.33px;
+  margin: 10px 0 10px 0;
+}
+
+@media only screen and (max-width: 768px) {
+  .exp-page {
+    width: 400px;
+  }
+
+  .exp-page img {
+    max-width: 100px;
+  }
+}

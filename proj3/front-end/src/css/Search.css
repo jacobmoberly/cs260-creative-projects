@@ -1,0 +1,42 @@
+.sea-page {
+  width: 500px;
+  margin: auto;
+  padding-top: 15px;
+}
+
+.form-inline {
+  display: flex;
+  flex-direction: column;
+}
+
+.sea-page button {
+  width: 40%;
+  margin: auto;
+}
+
+.user {
+  display: flex;
+}
+
+.history {
+  margin: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.history p {
+  padding: 10px;
+}
+
+.user {
+  padding-left: 35px;
+}
+
+@media only screen and (max-width: 768px) {
+  .sea-page {
+    width: 400px;
+  }
+  .form-inline {
+    margin-left: 0px;
+  }
+}
